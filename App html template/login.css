@@ -1,0 +1,40 @@
+.wrapper{
+    text-align: center;
+    margin-top: 10vh;
+}
+
+.tileH1{
+    font-size: 4em;
+}
+
+.titleH2{
+    font-size: 2em;
+}
+
+.input{
+    display: block;
+    margin: 0 auto;
+    font-size: 1em;
+    height: 25px;
+    border-bottom: 1px solid;
+    margin-bottom: 20px;
+    outline:none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+
+    border: none;
+    border-bottom: 2px solid black;
+    outline: 0;
+    transition: 0.2s;
+}
+
+.input:active{
+    transform: scale(1.2);
+}
+
+.form__login-button{
+    border: 1px solid black;
+    border-radius: 5%;
+    font-size: 1.1em;
+}

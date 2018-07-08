@@ -1,0 +1,54 @@
+.main{
+	width: 100%;
+    height: 100%;
+    padding: 0 25px 0 0;
+    overflow: auto;
+}
+
+.main__box-scroll{
+	width: 100%;
+    height: 100%;
+    padding: 0 25px 0 0;
+    overflow: auto;
+}
+
+.tile{
+	width: 33%;
+    height: 20vh;
+    border: 1px solid black;
+    display: inline-block;
+    box-sizing: border-box;
+
+    float:left;
+    padding-bottom: 33%;
+    overflow: hidden;
+
+}
+
+.wrapper:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.main__photo-tile-photo{
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+.main__settting {
+    background-image: url("img/setting.png");
+}
+.main__add{
+    background-image: url("img/add.png");
+}
+
+.utility{
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+
